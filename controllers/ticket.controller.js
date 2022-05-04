@@ -89,7 +89,6 @@ exports.createTicket = async (req, res) => {
  *
  * Allow the user to filter based on state
  *
- * TODO HW : Extension :
  * Using query param, allow the users to
  * filter the list of tickets based on status
  *
@@ -126,7 +125,6 @@ exports.getAllTickets = async (req, res) => {
   } else {
     /**
      *
-     * Assignment  :
      *
      * Approach 1 :  $or ---
      *
